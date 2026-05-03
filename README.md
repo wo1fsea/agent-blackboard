@@ -1,3 +1,9 @@
+---
+language: en-US
+audience: mixed
+doc_type: overview
+---
+
 # agent-blackboard
 
 Local-first Agentic UI blackboard for Codex threads.
@@ -16,3 +22,9 @@ Local-first Agentic UI blackboard for Codex threads.
 ## Status
 
 Early project notes live in the companion Obsidian vault. Implementation has not started yet.
+
+## Governance
+
+This repository uses Code & Order governance. Start with `AGENTS.md`, then follow the relevant workflow under `docs/governance/`.
+
+Project work is spec-first by default. Tiny mechanical edits can be direct when they do not affect behavior, contracts, durable docs, or governance.
