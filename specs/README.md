@@ -18,3 +18,15 @@ specs/<source>-<id>-<short-slug>/
   workstreams/
     01-implementation.md
 ```
+
+## Current Spec Map
+
+| Spec | Purpose | Status |
+|---|---|---|
+| `rfc-0001-initial-governance` | Code & Order initialization | validated |
+| `rfc-0002-mvp-scope-and-repo-scaffold` | MVP boundary, repository scaffold, baseline commands | ready |
+| `rfc-0003-protocol-and-storage` | Core data model, event protocol, SQLite persistence | ready |
+| `rfc-0004-local-daemon-and-cli` | Local daemon API, SSE, and `displayctl` | ready |
+| `rfc-0005-web-openui-and-skill` | Web UI, OpenUI page renderer, component catalog, Codex skill | draft |
+
+Implementation should start with `rfc-0002`, then `rfc-0003`, then `rfc-0004`. `rfc-0005` remains draft until OpenUI package integration is inspected during or after the scaffold work.
